@@ -13,8 +13,6 @@ module.exports = function(callback) {
       if (result.event == 'QuoteRespondedEvent') {
         console.log('Got response from ', result.args.name, 'for $', result.args.premium.toString(), 'Million')
         callback();
-      }else{
-        // console.log('unrelated', result.event, result.args.name);
       }
     })
   })

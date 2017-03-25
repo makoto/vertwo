@@ -33,11 +33,11 @@ truffle exec scripts/customer.js McDonald
 ### In terminal four (insurer)
 
 ```
-truffle exec scripts/insurer.js aig
+truffle exec scripts/insurer.js AIG
 ```
 
 ### In terminal five (insurer)
 
 ```
-truffle exec scripts/insurer.js allianz
+truffle exec scripts/insurer.js Allianz
 ```

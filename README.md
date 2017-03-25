@@ -1,29 +1,45 @@
-# truffle-init-webpack
-Example webpack project with Truffle. Includes contracts, migrations, tests, user interface and webpack build pipeline.
+# TwoVer
+
+Ebay of insurance with 15 lines of smart contract code.
 
 ## Usage
 
-To initialize a project with this exapmple, run `truffle init webpack` inside an empty directory.
+lin to a video
 
-## Building and the frontend
+## Dependencies
 
-1. First run `truffle compile`, then run `truffle migrate` to deploy the contracts onto your network of choice (default "development").
-1. Then run `npm run dev` to build the app and serve it on http://localhost:8080
+- nodejs
+- testrpc (3.0.3)
+- truffle (3.2.1)
 
-## Possible upgrades
+## How to setup
 
-* Use the webpack hotloader to sense when contracts or javascript have been recompiled and rebuild the application. Contributions welcome!
-
-## Common Errors
-
-* **Error: Can't resolve '../build/contracts/MetaCoin.json'**
-
-This means you haven't compiled or migrated your contracts yet. Run `truffle compile` and `truffle migrate` first.
-
-Full error:
+### In terminal one
 
 ```
-ERROR in ./app/main.js
-Module not found: Error: Can't resolve '../build/contracts/MetaCoin.json' in '/Users/tim/Documents/workspace/Consensys/test3/app'
- @ ./app/main.js 11:16-59
+testrpc
+```
+
+### In terminal two
+
+```
+truffle migrate
+```
+
+### In terminal three (customer)
+
+```
+truffle exec scripts/customer.js McDonald
+```
+
+### In terminal four (insurer)
+
+```
+truffle exec scripts/insurer.js aig
+```
+
+### In terminal five (insurer)
+
+```
+truffle exec scripts/insurer.js allianz
 ```

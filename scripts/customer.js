@@ -3,8 +3,6 @@ var customer = process.argv[4];
 var instance;
 console.log('Hi, I am customer', customer);
 
-
-
 module.exports = function(callback) {
   Market.deployed().then(function(i){
     instance = i;

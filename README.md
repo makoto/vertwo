@@ -1,10 +1,8 @@
-# TwoVer
-
-Ebay of insurance with 15 lines of smart contract code.
+# Ebay of insurance with 15 lines of smart contract code.
 
 ## Usage
 
-lin to a video
+[Demo video] (https://youtu.be/ylQOv_t8xlw)
 
 ## Dependencies
 

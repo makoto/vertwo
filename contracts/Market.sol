@@ -1,20 +1,6 @@
 pragma solidity ^0.4.2;
 
 contract Market {
-	mapping (address => uint) balances;
-
-	struct QuoteRequest {
-		address addr;
-		string name;
-		uint cover;
-	}
-
-	struct QuoteResponse {
-		address addr;
-		string name;
-		uint premium;
-	}
-
 	event QuoteRequestedEvent(address addr, string name, uint cover);
 	event QuoteRespondedEvent(address addr, string name, uint premium);
 

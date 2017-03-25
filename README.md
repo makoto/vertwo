@@ -2,7 +2,7 @@
 
 ## Usage
 
-[Demo video] (https://youtu.be/ylQOv_t8xlw)
+[Demo video](https://youtu.be/ylQOv_t8xlw)
 
 ## Dependencies
 
